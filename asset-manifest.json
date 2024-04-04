@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/protec-solutions/static/css/main.9408df44.css",
-    "main.js": "/protec-solutions/static/js/main.688d7042.js",
+    "main.js": "/protec-solutions/static/js/main.5f99d813.js",
     "static/media/q2.jpg": "/protec-solutions/static/media/q2.2f441f55f9517b99f1ff.jpg",
     "static/media/q3.jpg": "/protec-solutions/static/media/q3.0bb21926647bdc9681d7.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/protec-solutions/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.9408df44.css",
-    "static/js/main.688d7042.js"
+    "static/js/main.5f99d813.js"
   ]
 }
