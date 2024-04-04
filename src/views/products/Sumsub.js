@@ -66,9 +66,8 @@ class Sumsub extends React.Component {
                                                                             KYC
                                                                         </h6>
                                                                         <p className="description mt-3">
-                                                                            Argon is a great free UI package based on Bootstrap
-                                                                            4 that includes the most important components and
-                                                                            features.
+                                                                            KYC ürünümüzle müşterilerinizi daha hızlı daha doğru ve daha pürüzsüz
+                                                                            şekilde içeri alabilirsiniz.
                                                                         </p>
                                                                         <div>
                                                                             <Badge color="primary" pill className="mr-1">
@@ -86,7 +85,7 @@ class Sumsub extends React.Component {
                                                                             color="primary"
                                                                             to="/kyc-page" tag={Link}
                                                                         >
-                                                                            Learn more
+                                                                            Tıklayınız
                                                                         </Button>
                                                                     </CardBody>
                                                                 </Card>
@@ -101,9 +100,7 @@ class Sumsub extends React.Component {
                                                                             KYT
                                                                         </h6>
                                                                         <p className="description mt-3">
-                                                                            Argon is a great free UI package based on Bootstrap
-                                                                            4 that includes the most important components and
-                                                                            features.
+                                                                            Yapay zeka teknolojilerimiz sürekli güncellenerek bugünkü haline ulaştı. Siz de bu teknolojide yerinizi alın ve riski minimize edin.
                                                                         </p>
                                                                         <div>
                                                                             <Badge color="success" pill className="mr-1">
@@ -121,7 +118,7 @@ class Sumsub extends React.Component {
                                                                             color="success"
                                                                             to="/kyt-page" tag={Link}
                                                                         >
-                                                                            Learn more
+                                                                            Tıklayınız
                                                                         </Button>
                                                                     </CardBody>
                                                                 </Card>
@@ -136,9 +133,7 @@ class Sumsub extends React.Component {
                                                                            KYB
                                                                         </h6>
                                                                         <p className="description mt-3">
-                                                                            Argon is a great free UI package based on Bootstrap
-                                                                            4 that includes the most important components and
-                                                                            features.
+                                                                            KYC ürünümüzle müşterilerinizi daha hızlı daha doğru ve daha pürüzsüz şekilde içeri alabilirsiniz.
                                                                         </p>
                                                                         <div>
                                                                             <Badge color="warning" pill className="mr-1">
@@ -156,7 +151,7 @@ class Sumsub extends React.Component {
                                                                             color="warning"
                                                                             to="/kyb-page" tag={Link}
                                                                         >
-                                                                            Learn more
+                                                                            Tıklayınız
                                                                         </Button>
                                                                     </CardBody>
                                                                 </Card>
