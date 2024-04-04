@@ -131,7 +131,7 @@ class DemoNavbar extends React.Component {
                               Sumsub
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-
+                              KYC, KYT ve KYB ürünlerimizle rahatlayın.
                             </p>
                           </Media>
                         </Media>
@@ -147,8 +147,7 @@ class DemoNavbar extends React.Component {
                               Regula
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Learn more about colors, typography, icons and the
-                              grid system we used for Argon.
+                              Müşterilerinizi hızlıca onboard edin.
                             </p>
                           </Media>
                         </Media>
@@ -164,8 +163,7 @@ class DemoNavbar extends React.Component {
                               ACI PRM
                             </h5>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Browse our 50 beautiful handcrafted components
-                              offered in the Free version.
+                              Büyük ölçekteki projeleriniz için işlem izleme olanağıyla kurumsal anlamda bir adım önde olun ve teknolojiyi güvenle kullanın.
                             </p>
                           </Media>
                         </Media>
