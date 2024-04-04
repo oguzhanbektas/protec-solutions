@@ -17,7 +17,7 @@
 */
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
+import {Route, Routes, Navigate, HashRouter} from "react-router-dom";
 
 import "assets/vendor/nucleo/css/nucleo.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
@@ -45,7 +45,7 @@ import Communication from "./views/examples/Communication";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<BrowserRouter>
+root.render(<HashRouter>
     <Navbar/>
     <Routes>
         <Route path="/" exact element={<Index/>}/>
@@ -68,4 +68,4 @@ root.render(<BrowserRouter>
         <Route path="*" element={<Navigate to="/" replace/>}/>
     </Routes>
     <CardsFooter/>
-</BrowserRouter>);
+</HashRouter>);
