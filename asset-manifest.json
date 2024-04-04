@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/protec-solutions/static/css/main.9408df44.css",
-    "main.js": "/protec-solutions/static/js/main.5fb7e28f.js",
+    "main.js": "/protec-solutions/static/js/main.bcc66bbc.js",
     "static/media/15.jpg": "/protec-solutions/static/media/15.affc0203e695a91945b0.jpg",
     "static/media/17.jpg": "/protec-solutions/static/media/17.597f32400e9220b968cc.jpg",
     "static/media/16.jpg": "/protec-solutions/static/media/16.dfac56de6f9eb2489ce1.jpg",
@@ -37,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.9408df44.css",
-    "static/js/main.5fb7e28f.js"
+    "static/js/main.bcc66bbc.js"
   ]
 }
