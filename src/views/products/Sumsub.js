@@ -46,13 +46,13 @@ class Sumsub extends React.Component {
 
                                     <Row>
                                         <Col lg="12" className="overlay justify-content-center text-center mb-lg">
-                                            <h1 className="lead text-muted display-7 text-white pt-200">
+                                            <h1 className="display-7 text-white pt-200">
                                                 Sumsub
                                             </h1>
                                             <p className="lead text-white">
                                                 KYC , KYB ve KYT ürünlerimiz.
                                             </p>
-                                            <Container>
+                                            <Container className="pt-200">
                                                 <Row className="justify-content-center">
                                                     <Col lg="12">
                                                         <Row className="row-grid">

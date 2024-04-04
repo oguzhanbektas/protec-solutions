@@ -5,7 +5,7 @@ import {
     Col,
 } from "reactstrap";
 
-class Ubout extends React.Component {
+class About extends React.Component {
     state = {};
 
     componentDidMount() {
@@ -84,4 +84,4 @@ class Ubout extends React.Component {
     }
 }
 
-export default Ubout;
+export default About;

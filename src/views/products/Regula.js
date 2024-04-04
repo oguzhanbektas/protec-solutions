@@ -45,14 +45,14 @@ class Regula extends React.Component {
 
                                     <Row>
                                         <Col lg="12" className="overlay justify-content-center text-center mb-lg">
-                                            <h1 className="lead text-muted display-3 text-white">
+                                            <h1 className="display-7 text-white pt-200">
                                                 Regula
                                             </h1>
-                                            <p className="lead text-white">
-                                                Müşterilerinizi hızlıca onboard edin.
+                                            {/*<p className="lead text-white">*/}
+                                            {/*    Müşterilerinizi hızlıca onboard edin.*/}
 
 
-                                            </p>
+                                            {/*</p>*/}
                                         </Col>
                                     </Row>
                                 </div>
@@ -74,6 +74,22 @@ class Regula extends React.Component {
                                 </svg>
                             </div>
                         </section>
+                        <Container className="py-lg-md d-flex">
+                            <div className="col px-0">
+                                <Row>
+                                    <Col lg="7" className="overlay justify-content-center text-center mb-lg lead">
+                                        Müşterilerinizi hızlıca onboard edin
+                                    </Col>
+                                    <Col lg="5">
+                                        <img
+                                            alt="..."
+                                            src={require("assets/img/images/12.jpg")}
+                                            style={{width: "100%"}}
+                                        />
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Container>
                     </div>
                 </main>
             </>

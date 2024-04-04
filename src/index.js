@@ -25,7 +25,7 @@ import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import Index from "views/Index.js";
 import Landing from "views/examples/Landing.js";
-import Ubout from "./views/examples/Ubout.js";
+import About from "./views/examples/Ubout";
 import Login from "views/examples/Login.js";
 import Profile from "views/examples/Profile.js";
 import Register from "views/examples/Register.js";
@@ -50,7 +50,7 @@ root.render(<HashRouter>
     <Routes>
         <Route path="/" exact element={<Index/>}/>
         <Route path="/landing-page" exact element={<Landing/>}/>
-        <Route path="/ubout-us-page" exact element={<Ubout/>}/>
+        <Route path="/about-us-page" exact element={<About/>}/>
         <Route path="/artificial-intelligence-page" exact element={<ArtificialIntelligence/>}/>
         <Route path="/smart-app-page" exact element={<SmartApp/>}/>
         <Route path="/fraud-page" exact element={<Fraud/>}/>
