@@ -2,11 +2,11 @@ import React from "react";
 import {
     Container,
     Row,
-    Col, Card, CardBody, Badge, Button,
+    Col,
 } from "reactstrap";
 
 import image from '../../../assets/img/images/q1.jpg';
-import {Link} from "react-router-dom";
+
 
 class Kyc extends React.Component {
     state = {};
@@ -46,129 +46,13 @@ class Kyc extends React.Component {
 
                                     <Row>
                                         <Col lg="12" className="overlay justify-content-center text-center mb-lg">
-                                            <h1 className="lead text-muted display-3 text-white">
-                                                Kyc
+                                            <h1 className="display-7 text-white pt-100">
+                                                KYC
                                             </h1>
                                             <p className="lead text-white">
-                                                Kuruluşunuza özel tasarlayacağımız yapay zeka modelleri ile rekabet
-                                                avantajına sahip olun.<br/>
-                                                Pazarlama, Fraud, Satış ve benzeri alanlarda uzmanlaşmış ekibimiz sizin
-                                                sisteminizle birlikte çalışabilecek kendi kendini eğiten modeler
-                                                geliştirmektedir.
+                                                KYC ürünümüzle müşterilerinizi daha hızlı daha doğru ve daha pürüzsüz
+                                                şekilde içeri alabilirsiniz.
                                             </p>
-                                            <Container>
-                                                <Row className="justify-content-center">
-                                                    <Col lg="12">
-                                                        <Row className="row-grid">
-                                                            <Col lg="4">
-                                                                <Card className="card-lift--hover shadow border-0">
-                                                                    <CardBody className="py-5">
-                                                                        <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                                                                            <i className="ni ni-check-bold" />
-                                                                        </div>
-                                                                        <h6 className="text-primary text-uppercase">
-                                                                            KYC
-                                                                        </h6>
-                                                                        <p className="description mt-3">
-                                                                            Argon is a great free UI package based on Bootstrap
-                                                                            4 that includes the most important components and
-                                                                            features.
-                                                                        </p>
-                                                                        <div>
-                                                                            <Badge color="primary" pill className="mr-1">
-                                                                                design
-                                                                            </Badge>
-                                                                            <Badge color="primary" pill className="mr-1">
-                                                                                system
-                                                                            </Badge>
-                                                                            <Badge color="primary" pill className="mr-1">
-                                                                                creative
-                                                                            </Badge>
-                                                                        </div>
-                                                                        <Button
-                                                                            className="mt-4"
-                                                                            color="primary"
-                                                                            to="/kyc-page" tag={Link}
-                                                                        >
-                                                                            Learn more
-                                                                        </Button>
-                                                                    </CardBody>
-                                                                </Card>
-                                                            </Col>
-                                                            <Col lg="4">
-                                                                <Card className="card-lift--hover shadow border-0">
-                                                                    <CardBody className="py-5">
-                                                                        <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                                                                            <i className="ni ni-istanbul" />
-                                                                        </div>
-                                                                        <h6 className="text-success text-uppercase">
-                                                                            KYT
-                                                                        </h6>
-                                                                        <p className="description mt-3">
-                                                                            Argon is a great free UI package based on Bootstrap
-                                                                            4 that includes the most important components and
-                                                                            features.
-                                                                        </p>
-                                                                        <div>
-                                                                            <Badge color="success" pill className="mr-1">
-                                                                                business
-                                                                            </Badge>
-                                                                            <Badge color="success" pill className="mr-1">
-                                                                                vision
-                                                                            </Badge>
-                                                                            <Badge color="success" pill className="mr-1">
-                                                                                success
-                                                                            </Badge>
-                                                                        </div>
-                                                                        <Button
-                                                                            className="mt-4"
-                                                                            color="success"
-                                                                            to="/kyt-page" tag={Link}
-                                                                        >
-                                                                            Learn more
-                                                                        </Button>
-                                                                    </CardBody>
-                                                                </Card>
-                                                            </Col>
-                                                            <Col lg="4">
-                                                                <Card className="card-lift--hover shadow border-0">
-                                                                    <CardBody className="py-5">
-                                                                        <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                                                                            <i className="ni ni-planet" />
-                                                                        </div>
-                                                                        <h6 className="text-warning text-uppercase">
-                                                                           KYB
-                                                                        </h6>
-                                                                        <p className="description mt-3">
-                                                                            Argon is a great free UI package based on Bootstrap
-                                                                            4 that includes the most important components and
-                                                                            features.
-                                                                        </p>
-                                                                        <div>
-                                                                            <Badge color="warning" pill className="mr-1">
-                                                                                marketing
-                                                                            </Badge>
-                                                                            <Badge color="warning" pill className="mr-1">
-                                                                                product
-                                                                            </Badge>
-                                                                            <Badge color="warning" pill className="mr-1">
-                                                                                launch
-                                                                            </Badge>
-                                                                        </div>
-                                                                        <Button
-                                                                            className="mt-4"
-                                                                            color="warning"
-                                                                            to="/kyb-page" tag={Link}
-                                                                        >
-                                                                            Learn more
-                                                                        </Button>
-                                                                    </CardBody>
-                                                                </Card>
-                                                            </Col>
-                                                        </Row>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
                                         </Col>
                                     </Row>
                                 </div>
@@ -190,6 +74,181 @@ class Kyc extends React.Component {
                                 </svg>
                             </div>
                         </section>
+
+                        <Container className="py-lg-md d-flex">
+                            <div className="col px-0">
+                                <Row>
+                                    <Col lg="12">
+                                        <b> Face Match and Liveness</b>
+                                    </Col>
+                                    <Col lg="7" className="overlay   mb-lg lead">
+                                        <p className="justify-content-center">
+                                            Yüz eşleştirme teknolojisi ile rakiplerinizin bir adım önünde olun ve
+                                            hızlıca
+                                            içeri alın.
+
+                                        </p>
+
+                                        <ul>
+                                            <li>Hızlı</li>
+                                            <li>Güvenilir</li>
+                                            <li>Tekrarlanabilir</li>
+                                        </ul>
+                                    </Col>
+                                    <Col lg="5">
+                                        <img
+                                            alt="..."
+                                            src={require("assets/img/images/1.jpg")}
+                                            style={{width: "100%"}}
+                                        />
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Container>
+
+                        <Container className="py-lg-md d-flex">
+                            <div className="col px-0">
+                                <Row>
+                                    <Col lg="12">
+                                        <b> Document Check</b>
+                                    </Col>
+                                    <Col lg="7" className="overlay   mb-lg lead">
+                                        <p className="justify-content-center">
+                                            Her türlü kimlik dolandırıcılığına karşı kendinizi koruyun.
+                                        </p>
+
+                                        <ul>
+                                            <li>Her zaman güncel verilerle eğitilmiş bir yapay zeka</li>
+                                            <li>Arka plan kontrolü ile şablon üzeri dolandırıcılığa karşı etkili</li>
+                                            <li>Hızlı</li>
+                                        </ul>
+                                    </Col>
+                                    <Col lg="5">
+                                        <img
+                                            alt="..."
+                                            src={require("assets/img/images/2.jpg")}
+                                            style={{width: "100%"}}
+                                        />
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Container>
+
+                        <Container className="py-lg-md d-flex">
+                            <div className="col px-0">
+                                <Row>
+                                    <Col lg="12">
+                                        <b> AML Kontrolü</b>
+                                    </Col>
+                                    <Col lg="7" className="overlay   mb-lg lead">
+                                        <p className="justify-content-center">
+                                            İçeriye aldığınız kişileri denetleyin.
+
+                                        </p>
+
+                                        <ul>
+                                            <li>Ölçeklenebilir</li>
+                                            <li>Güvenilir</li>
+                                            <li>Yönetmeliğe uygun</li>
+                                        </ul>
+                                    </Col>
+                                    <Col lg="5">
+                                        <img
+                                            alt="..."
+                                            src={require("assets/img/images/3.jpg")}
+                                            style={{width: "100%"}}
+                                        />
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Container>
+
+                        <Container className="py-lg-md d-flex">
+                            <div className="col px-0">
+                                <Row>
+                                    <Col lg="12">
+                                        <b> Telefon ve Email Risk Skorlaması </b>
+                                    </Col>
+                                    <Col lg="7" className="overlay   mb-lg lead">
+                                        <p className="justify-content-center">
+                                            Telefon ve e-mailden müşterilerinizi skorlayın riskli olanları yeniden
+                                            inceleyin.
+                                        </p>
+
+                                        <ul>
+                                            <li>Kolay Entegrasyon</li>
+                                            <li>Detaylı Veri Bankası</li>
+                                            <li>Üstün Risk Tespit Kapasitesi</li>
+                                        </ul>
+                                    </Col>
+                                    <Col lg="5">
+                                        <img
+                                            alt="..."
+                                            src={require("assets/img/images/4.jpg")}
+                                            style={{width: "100%"}}
+                                        />
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Container>
+
+                        <Container className="py-lg-md d-flex">
+                            <div className="col px-0">
+                                <Row>
+                                    <Col lg="12">
+                                        <b> Yaş Tahmini </b>
+                                    </Col>
+                                    <Col lg="7" className="overlay   mb-lg lead">
+                                        <p className="justify-content-center">
+                                            Üstün başarı ile müşterilerinizin yaşını bulun ve sistemlerle karşılaştırın.<br/>
+                                            Ekstra güvenlik bariyeri ekleyin.
+                                        </p>
+
+                                        <ul>
+                                            <li>Minimum hata</li>
+                                            <li>Güvenilir</li>
+                                            <li>Ekstra zamana ihtiyaç duymaz</li>
+                                        </ul>
+                                    </Col>
+                                    <Col lg="5">
+                                        <img
+                                            alt="..."
+                                            src={require("assets/img/images/5.jpg")}
+                                            style={{width: "100%"}}
+                                        />
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Container>
+
+                        <Container className="py-lg-md d-flex">
+                            <div className="col px-0">
+                                <Row>
+                                    <Col lg="12">
+                                        <b> Bilinen Yüz Kontrolü</b>
+                                    </Col>
+                                    <Col lg="7" className="overlay   mb-lg lead">
+                                        <p className="justify-content-center">
+                                            İçeri almak istemediğiniz kişileri ekleyin, güvenlikten emin olun.
+                                        </p>
+
+                                        <ul>
+                                            <li>Başında engelleyin</li>
+                                            <li>Hızlı çözüm alın</li>
+                                            <li>Zincirleme dolandırıcılıkların önüne geçin</li>
+                                        </ul>
+                                    </Col>
+                                    <Col lg="5">
+                                        <img
+                                            alt="..."
+                                            src={require("assets/img/images/6.jpg")}
+                                            style={{width: "100%"}}
+                                        />
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Container>
+
                     </div>
                 </main>
             </>

@@ -2,11 +2,10 @@ import React from "react";
 import {
     Container,
     Row,
-    Col, Card, CardBody, Badge, Button,
+    Col,
 } from "reactstrap";
 
 import image from '../../../assets/img/images/q1.jpg';
-import {Link} from "react-router-dom";
 
 class Kyt extends React.Component {
     state = {};
@@ -46,129 +45,12 @@ class Kyt extends React.Component {
 
                                     <Row>
                                         <Col lg="12" className="overlay justify-content-center text-center mb-lg">
-                                            <h1 className="lead text-muted display-3 text-white">
-                                                Kyt
+                                            <h1 className="display-7 text-white pt-100">
+                                                KYT
                                             </h1>
                                             <p className="lead text-white">
-                                                Kuruluşunuza özel tasarlayacağımız yapay zeka modelleri ile rekabet
-                                                avantajına sahip olun.<br/>
-                                                Pazarlama, Fraud, Satış ve benzeri alanlarda uzmanlaşmış ekibimiz sizin
-                                                sisteminizle birlikte çalışabilecek kendi kendini eğiten modeler
-                                                geliştirmektedir.
+                                                Yapay zeka teknolojilerimiz sürekli güncellenerek bugünkü haline ulaştı. Siz de bu teknolojide yerinizi alın ve riski minimize edin.
                                             </p>
-                                            <Container>
-                                                <Row className="justify-content-center">
-                                                    <Col lg="12">
-                                                        <Row className="row-grid">
-                                                            <Col lg="4">
-                                                                <Card className="card-lift--hover shadow border-0">
-                                                                    <CardBody className="py-5">
-                                                                        <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                                                                            <i className="ni ni-check-bold" />
-                                                                        </div>
-                                                                        <h6 className="text-primary text-uppercase">
-                                                                            KYC
-                                                                        </h6>
-                                                                        <p className="description mt-3">
-                                                                            Argon is a great free UI package based on Bootstrap
-                                                                            4 that includes the most important components and
-                                                                            features.
-                                                                        </p>
-                                                                        <div>
-                                                                            <Badge color="primary" pill className="mr-1">
-                                                                                design
-                                                                            </Badge>
-                                                                            <Badge color="primary" pill className="mr-1">
-                                                                                system
-                                                                            </Badge>
-                                                                            <Badge color="primary" pill className="mr-1">
-                                                                                creative
-                                                                            </Badge>
-                                                                        </div>
-                                                                        <Button
-                                                                            className="mt-4"
-                                                                            color="primary"
-                                                                            to="/kyc-page" tag={Link}
-                                                                        >
-                                                                            Learn more
-                                                                        </Button>
-                                                                    </CardBody>
-                                                                </Card>
-                                                            </Col>
-                                                            <Col lg="4">
-                                                                <Card className="card-lift--hover shadow border-0">
-                                                                    <CardBody className="py-5">
-                                                                        <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                                                                            <i className="ni ni-istanbul" />
-                                                                        </div>
-                                                                        <h6 className="text-success text-uppercase">
-                                                                            KYT
-                                                                        </h6>
-                                                                        <p className="description mt-3">
-                                                                            Argon is a great free UI package based on Bootstrap
-                                                                            4 that includes the most important components and
-                                                                            features.
-                                                                        </p>
-                                                                        <div>
-                                                                            <Badge color="success" pill className="mr-1">
-                                                                                business
-                                                                            </Badge>
-                                                                            <Badge color="success" pill className="mr-1">
-                                                                                vision
-                                                                            </Badge>
-                                                                            <Badge color="success" pill className="mr-1">
-                                                                                success
-                                                                            </Badge>
-                                                                        </div>
-                                                                        <Button
-                                                                            className="mt-4"
-                                                                            color="success"
-                                                                            to="/kyt-page" tag={Link}
-                                                                        >
-                                                                            Learn more
-                                                                        </Button>
-                                                                    </CardBody>
-                                                                </Card>
-                                                            </Col>
-                                                            <Col lg="4">
-                                                                <Card className="card-lift--hover shadow border-0">
-                                                                    <CardBody className="py-5">
-                                                                        <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                                                                            <i className="ni ni-planet" />
-                                                                        </div>
-                                                                        <h6 className="text-warning text-uppercase">
-                                                                           KYB
-                                                                        </h6>
-                                                                        <p className="description mt-3">
-                                                                            Argon is a great free UI package based on Bootstrap
-                                                                            4 that includes the most important components and
-                                                                            features.
-                                                                        </p>
-                                                                        <div>
-                                                                            <Badge color="warning" pill className="mr-1">
-                                                                                marketing
-                                                                            </Badge>
-                                                                            <Badge color="warning" pill className="mr-1">
-                                                                                product
-                                                                            </Badge>
-                                                                            <Badge color="warning" pill className="mr-1">
-                                                                                launch
-                                                                            </Badge>
-                                                                        </div>
-                                                                        <Button
-                                                                            className="mt-4"
-                                                                            color="warning"
-                                                                            to="/kyb-page" tag={Link}
-                                                                        >
-                                                                            Learn more
-                                                                        </Button>
-                                                                    </CardBody>
-                                                                </Card>
-                                                            </Col>
-                                                        </Row>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
                                         </Col>
                                     </Row>
                                 </div>
@@ -190,6 +72,77 @@ class Kyt extends React.Component {
                                 </svg>
                             </div>
                         </section>
+
+                        <Container className="py-lg-md d-flex">
+                            <div className="col px-0">
+                                <Row>
+                                    <Col lg="12">
+                                        <b> Davranışsal modeler</b>
+                                    </Col>
+                                    <Col lg="7" className="overlay   mb-lg lead">
+                                        <p className="justify-content-center">
+                                            Müşterilerinizin davranışlarına göre otomatik skor oluşturur ve davranış örüntüsü dışında hareket tespit edilirse alarm oluşturulur.
+
+                                        </p>
+
+                                    </Col>
+                                    <Col lg="5">
+                                        <img
+                                            alt="..."
+                                            src={require("assets/img/images/7.jpg")}
+                                            style={{width: "100%"}}
+                                        />
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Container>
+
+                        <Container className="py-lg-md d-flex">
+                            <div className="col px-0">
+                                <Row>
+                                    <Col lg="12">
+                                        <b> 300 ün üzerinde hazır Kural</b>
+                                    </Col>
+                                    <Col lg="7" className="overlay   mb-lg lead">
+                                        <p className="justify-content-center">
+                                            Globalde karşılaşılan dolandırıcılık türleri ile sürekli yenilenen Kural setlerimiz ile har duruma hazırlıklı olun.
+                                        </p>
+
+                                    </Col>
+                                    <Col lg="5">
+                                        <img
+                                            alt="..."
+                                            src={require("assets/img/images/8.jpg")}
+                                            style={{width: "100%"}}
+                                        />
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Container>
+
+                        <Container className="py-lg-md d-flex">
+                            <div className="col px-0">
+                                <Row>
+                                    <Col lg="12">
+                                        <b> Sadece kritik konular</b>
+                                    </Col>
+                                    <Col lg="7" className="overlay   mb-lg lead">
+                                        <p className="justify-content-center">
+                                            All-in one teknolojimiz sayesinde sadece kritik konularda insan müdahalesine ihtiyaç duyuyoruz.
+
+                                        </p>
+                                    </Col>
+                                    <Col lg="5">
+                                        <img
+                                            alt="..."
+                                            src={require("assets/img/images/9.jpg")}
+                                            style={{width: "100%"}}
+                                        />
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Container>
+
                     </div>
                 </main>
             </>

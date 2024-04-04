@@ -45,7 +45,7 @@ class Aci extends React.Component {
 
                                     <Row>
                                         <Col lg="12" className="overlay justify-content-center text-center mb-lg">
-                                            <h1 className="display-7 text-white mb-200">
+                                            <h1 className="display-7 text-white pt-200">
                                                 ACI & PRM
                                             </h1>
                                             {/*<p className="lead text-white">*/}
