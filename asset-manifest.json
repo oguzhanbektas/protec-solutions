@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/protec-solutions/static/css/main.9408df44.css",
-    "main.js": "/protec-solutions/static/js/main.bcc66bbc.js",
+    "main.js": "/protec-solutions/static/js/main.83ab89fb.js",
     "static/media/15.jpg": "/protec-solutions/static/media/15.affc0203e695a91945b0.jpg",
     "static/media/17.jpg": "/protec-solutions/static/media/17.597f32400e9220b968cc.jpg",
     "static/media/16.jpg": "/protec-solutions/static/media/16.dfac56de6f9eb2489ce1.jpg",
+    "static/media/12.jpg": "/protec-solutions/static/media/12.287695380dd603168d66.jpg",
     "static/media/18.jpg": "/protec-solutions/static/media/18.20cad852cf971cd211c9.jpg",
     "static/media/q2.jpg": "/protec-solutions/static/media/q2.2f441f55f9517b99f1ff.jpg",
     "static/media/q3.jpg": "/protec-solutions/static/media/q3.0bb21926647bdc9681d7.jpg",
@@ -21,6 +22,7 @@
     "static/media/nucleo-icons.svg": "/protec-solutions/static/media/nucleo-icons.95fa360c1c73431a0f9a.svg",
     "static/media/team-4-800x800.jpg": "/protec-solutions/static/media/team-4-800x800.99c612eb60728a5aeeb0.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/protec-solutions/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/14.jpg": "/protec-solutions/static/media/14.7d7e830618ba8b301ff8.jpg",
     "static/media/ill-2.svg": "/protec-solutions/static/media/ill-2.b82bc41ca8f27286779053cc2a544e93.svg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/protec-solutions/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/creativetim-white-slim.png": "/protec-solutions/static/media/creativetim-white-slim.c9b2f68e52151075edf1.png",
@@ -37,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.9408df44.css",
-    "static/js/main.bcc66bbc.js"
+    "static/js/main.83ab89fb.js"
   ]
 }
