@@ -46,15 +46,15 @@ componentDidMount() {
                                     <div className="col px-0">
                                         <Row className="justify-content-center text-center mb-lg">
                                             <Col lg="12">
-                                                <h1 className="display-3 text-white">
+                                                <h1 className="display-7 text-white pt-200">
                                                     Whistle Blowing
                                                 </h1>
-                                                <p className="lead text-white">
-                                                    Şirket içi etik hattı için geliştirdiğimiz system ile denetçiler ve
-                                                    yönetim alt kademelerdeki problemlere karşı takipte olabilir.
-                                                    Herhangi bir isimsiz ihbar bu hat üzerinden işlenir, değerlendirilir
-                                                    ve raporlanır.
-                                                </p>
+                                                {/*<p className="lead text-white">*/}
+                                                {/*    Şirket içi etik hattı için geliştirdiğimiz system ile denetçiler ve*/}
+                                                {/*    yönetim alt kademelerdeki problemlere karşı takipte olabilir.*/}
+                                                {/*    Herhangi bir isimsiz ihbar bu hat üzerinden işlenir, değerlendirilir*/}
+                                                {/*    ve raporlanır.*/}
+                                                {/*</p>*/}
                                             </Col>
                                         </Row>
                                     </div>
@@ -76,6 +76,25 @@ componentDidMount() {
                                     </svg>
                                 </div>
                             </section>
+                        <Container className="py-lg-md d-flex">
+                            <div className="col px-0">
+                                <Row>
+                                    <Col lg="7" className="overlay justify-content-center text-center mb-lg lead">
+                                        Şirket içi etik hattı için geliştirdiğimiz system ile denetçiler ve
+                                        yönetim alt kademelerdeki problemlere karşı takipte olabilir.
+                                        Herhangi bir isimsiz ihbar bu hat üzerinden işlenir, değerlendirilir
+                                        ve raporlanır.
+                                    </Col>
+                                    <Col lg="5">
+                                        <img
+                                            alt="..."
+                                            src={require("assets/img/images/17.jpg")}
+                                            style={{width: "100%"}}
+                                        />
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Container>
                     </div>
                 </main>
             </>

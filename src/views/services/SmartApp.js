@@ -43,16 +43,17 @@ class SmartApp extends React.Component {
                                 <div className="col px-0">
                                     <Row className="justify-content-center text-center mb-lg">
                                         <Col lg="12">
-                                            <h1 className="display-3 text-white">
+                                            {/*<h1 className="display-3 text-white">*/}
+                                            <h1 className="display-7 text-white pt-200">
                                                 Smart Apps
                                             </h1>
-                                            <p className="lead text-white">
-                                                Operasyonal işleri otomatize etmek için kurguladığımız SmartApp lerimiz
-                                                ile artık tekrarlayan ve katma değer yaratmayan işleri bilgisayar
-                                                ortamında otomatik olarak yapabileceksiniz.
-                                                Bu uygulamalar kuruluşunuza özel yapılabildiği gibi hazır
-                                                uygulamalarımız da mevcuttur.
-                                            </p>
+                                            {/*<p className="lead text-white">*/}
+                                            {/*    Operasyonal işleri otomatize etmek için kurguladığımız SmartApp lerimiz*/}
+                                            {/*    ile artık tekrarlayan ve katma değer yaratmayan işleri bilgisayar*/}
+                                            {/*    ortamında otomatik olarak yapabileceksiniz.*/}
+                                            {/*    Bu uygulamalar kuruluşunuza özel yapılabildiği gibi hazır*/}
+                                            {/*    uygulamalarımız da mevcuttur.*/}
+                                            {/*</p>*/}
                                         </Col>
                                     </Row>
                                 </div>
@@ -74,6 +75,26 @@ class SmartApp extends React.Component {
                                 </svg>
                             </div>
                         </section>
+                        <Container className="py-lg-md d-flex">
+                            <div className="col px-0">
+                                <Row>
+                                    <Col lg="7" className="overlay justify-content-center text-center mb-lg lead">
+                                        Operasyonal işleri otomatize etmek için kurguladığımız SmartApp lerimiz
+                                        ile artık tekrarlayan ve katma değer yaratmayan işleri bilgisayar
+                                        ortamında otomatik olarak yapabileceksiniz.
+                                        Bu uygulamalar kuruluşunuza özel yapılabildiği gibi hazır
+                                        uygulamalarımız da mevcuttur.
+                                    </Col>
+                                    <Col lg="5">
+                                        <img
+                                            alt="..."
+                                            src={require("assets/img/images/16.jpg")}
+                                            style={{width: "100%"}}
+                                        />
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Container>
                     </div>
                 </main>
             </>

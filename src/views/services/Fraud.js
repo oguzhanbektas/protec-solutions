@@ -45,13 +45,13 @@ class Fraud extends React.Component {
                                 <div className="col px-0">
                                     <Row className="justify-content-center text-center mb-lg">
                                         <Col lg="12">
-                                            <h1 className="display-3 text-white">
+                                            <h1 className="display-7 text-white pt-200">
                                                 Fraud Danışmanlık ve Eğitim hizmetleri
                                             </h1>
-                                            <p className="lead text-white">
-                                                Bankalara, Finansal kuruluşlara ve farklı alanlardaki kart ve bankacılık dolandırıcılıkları özelinde eğitim ve danışmanlık hizmetleri vermekteyiz.
-                                                Eğitimler hakkında bilgi almak için iletişim kutusunu doldurabilirsiniz.
-                                            </p>
+                                            {/*<p className="lead text-white">*/}
+                                            {/*    Bankalara, Finansal kuruluşlara ve farklı alanlardaki kart ve bankacılık dolandırıcılıkları özelinde eğitim ve danışmanlık hizmetleri vermekteyiz.*/}
+                                            {/*    Eğitimler hakkında bilgi almak için iletişim kutusunu doldurabilirsiniz.*/}
+                                            {/*</p>*/}
                                         </Col>
                                     </Row>
                                 </div>
@@ -73,6 +73,24 @@ class Fraud extends React.Component {
                                 </svg>
                             </div>
                         </section>
+                        <Container className="py-lg-md d-flex">
+                            <div className="col px-0">
+                                <Row>
+                                    <Col lg="7" className="overlay justify-content-center text-center mb-lg lead">
+                                        Bankalara, Finansal kuruluşlara ve farklı alanlardaki kart ve bankacılık
+                                        dolandırıcılıkları özelinde eğitim ve danışmanlık hizmetleri vermekteyiz.
+                                        Eğitimler hakkında bilgi almak için iletişim kutusunu doldurabilirsiniz.
+                                    </Col>
+                                    <Col lg="5">
+                                        <img
+                                            alt="..."
+                                            src={require("assets/img/images/18.jpg")}
+                                            style={{width: "100%"}}
+                                        />
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Container>
                     </div>
                 </main>
             </>
