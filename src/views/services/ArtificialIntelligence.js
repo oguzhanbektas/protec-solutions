@@ -45,16 +45,16 @@ class ArtificialIntelligence extends React.Component {
 
                                     <Row>
                                         <Col lg="12" className="overlay justify-content-center text-center mb-lg">
-                                            <h1 className="lead text-muted display-3 text-white">
+                                            <h1 className="text-muted display-7 text-white pt-200">
                                                 Yapay Zeka Projeleri
                                             </h1>
-                                            <p className="lead text-white">
-                                                Kuruluşunuza özel tasarlayacağımız yapay zeka modelleri ile rekabet
-                                                avantajına sahip olun.<br/>
-                                                Pazarlama, Fraud, Satış ve benzeri alanlarda uzmanlaşmış ekibimiz sizin
-                                                sisteminizle birlikte çalışabilecek kendi kendini eğiten modeler
-                                                geliştirmektedir.
-                                            </p>
+                                            {/*<p className="lead text-white">*/}
+                                            {/*    Kuruluşunuza özel tasarlayacağımız yapay zeka modelleri ile rekabet*/}
+                                            {/*    avantajına sahip olun.<br/>*/}
+                                            {/*    Pazarlama, Fraud, Satış ve benzeri alanlarda uzmanlaşmış ekibimiz sizin*/}
+                                            {/*    sisteminizle birlikte çalışabilecek kendi kendini eğiten modeler*/}
+                                            {/*    geliştirmektedir.*/}
+                                            {/*</p>*/}
                                         </Col>
                                     </Row>
                                 </div>
@@ -76,6 +76,26 @@ class ArtificialIntelligence extends React.Component {
                                 </svg>
                             </div>
                         </section>
+                        <Container className="py-lg-md d-flex">
+                            <div className="col px-0">
+                                <Row>
+                                    <Col lg="7" className="overlay justify-content-center text-center mb-lg lead">
+                                        Kuruluşunuza özel tasarlayacağımız yapay zeka modelleri ile rekabet
+                                        avantajına sahip olun.
+                                        Pazarlama, Fraud, Satış ve benzeri alanlarda uzmanlaşmış ekibimiz sizin
+                                        sisteminizle birlikte çalışabilecek kendi kendini eğiten modeler
+                                        geliştirmektedir.
+                                    </Col>
+                                    <Col lg="5">
+                                        <img
+                                            alt="..."
+                                            src={require("assets/img/images/15.jpg")}
+                                            style={{width: "100%"}}
+                                        />
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Container>
                     </div>
                 </main>
             </>

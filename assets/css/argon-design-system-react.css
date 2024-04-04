@@ -450,6 +450,11 @@ h6,
   font-weight: 300;
 }
 
+.lead2 {
+  font-size: 11.25rem;
+  font-weight: 300;
+}
+
 .display-1 {
   font-size: 3.3rem;
   font-weight: 600;
@@ -470,6 +475,24 @@ h6,
 
 .display-4 {
   font-size: 1.6275rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.display-5 {
+  font-size: 20.6275rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.display-6 {
+  font-size: 25.6275rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.display-7 {
+  font-size: 30.6275rem;
   font-weight: 600;
   line-height: 1.5;
 }
