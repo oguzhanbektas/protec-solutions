@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/protec-solutions/static/css/main.06990ba4.css",
-    "main.js": "/protec-solutions/static/js/main.472237c7.js",
+    "main.css": "/protec-solutions/static/css/main.9408df44.css",
+    "main.js": "/protec-solutions/static/js/main.688d7042.js",
     "static/media/q2.jpg": "/protec-solutions/static/media/q2.2f441f55f9517b99f1ff.jpg",
     "static/media/q3.jpg": "/protec-solutions/static/media/q3.0bb21926647bdc9681d7.jpg",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/protec-solutions/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/protec-solutions/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
     "static/media/team-2-800x800.jpg": "/protec-solutions/static/media/team-2-800x800.3e08ef145920c93bbe32.jpg",
     "static/media/img-1-1200x1000.jpg": "/protec-solutions/static/media/img-1-1200x1000.df1442cf520034feb3b0.jpg",
     "static/media/img-2-1200x1000.jpg": "/protec-solutions/static/media/img-2-1200x1000.78ce5ecad91906896cd1.jpg",
@@ -14,7 +14,7 @@
     "static/media/fontawesome-webfont.eot": "/protec-solutions/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/protec-solutions/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/q4.jpg": "/protec-solutions/static/media/q4.e7c19e2060a26879ba1c.jpg",
-    "static/media/nucleo-icons.svg": "/protec-solutions/static/media/nucleo-icons.01ebecaf50461162d4bc.svg",
+    "static/media/nucleo-icons.svg": "/protec-solutions/static/media/nucleo-icons.95fa360c1c73431a0f9a.svg",
     "static/media/team-4-800x800.jpg": "/protec-solutions/static/media/team-4-800x800.99c612eb60728a5aeeb0.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/protec-solutions/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/ill-2.svg": "/protec-solutions/static/media/ill-2.b82bc41ca8f27286779053cc2a544e93.svg",
@@ -27,12 +27,12 @@
     "static/media/nucleo-icons.ttf": "/protec-solutions/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
     "static/media/nucleo-icons.woff": "/protec-solutions/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
     "static/media/nucleo-icons.woff2": "/protec-solutions/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
-    "static/media/google.svg": "/protec-solutions/static/media/google.eae9aa9354350126d1b032847835a051.svg",
-    "static/media/github.svg": "/protec-solutions/static/media/github.6c95555646a0ecabf549179c97bf0e7d.svg",
+    "static/media/google.svg": "/protec-solutions/static/media/google.952443d790ba00a03a5e2b10397d3acd.svg",
+    "static/media/github.svg": "/protec-solutions/static/media/github.f7165d3e2844ef758a22c6829f494e71.svg",
     "index.html": "/protec-solutions/index.html"
   },
   "entrypoints": [
-    "static/css/main.06990ba4.css",
-    "static/js/main.472237c7.js"
+    "static/css/main.9408df44.css",
+    "static/js/main.688d7042.js"
   ]
 }
